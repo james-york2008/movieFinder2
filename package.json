@@ -10,7 +10,7 @@
     "react-scripts": "^3.0.0"
   },
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,5 +33,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "packageManager": "yarn@4.12.0+sha224.877304a94a6946ab1d58a358df5ff8af2f7c9d86ea506f05f5c9df05"
 }
